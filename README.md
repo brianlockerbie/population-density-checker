@@ -1,7 +1,5 @@
 <h1 align ="center">Population Density Checker</h1>
 
-# Population Density Checker
-
 ## Live Demo: https://project01team10.github.io/population-density-checker
 
 ## GitHub Link: https://github.com/project01team10/population-density-checker
