@@ -1,0 +1,316 @@
+:root {
+  font-family:Arial, Helvetica, sans-serif;
+    --primary: #05117a;
+    --secondary: #e61a1a;
+    --tertiary: #ffffff;
+    --grey: #999999;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #d9DCD6;
+}
+
+header {
+  padding: 20px;
+  font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+  background-color: var(--primary);
+  color: var(--tertiary);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+header h1 .seo {
+  color: var(--tertiary);
+}
+header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+  font-size: 20px;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+header img {
+  width: 5%;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+head h2 {
+  background: var(--secondary);
+}
+
+main div h1 {
+  color: var(--primary);
+  background-color: var(--tertiary);
+  border-top: solid var(--secondary) 4px;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+
+main h2 {
+  color: var(--primary);
+  padding: 10px 5px;
+  margin: none;
+}
+
+main h3 {
+  color: var(--primary);
+  padding: 15px;
+  text-align: center;
+  background-color: var(--tertiary);
+  font-size: 35px;
+}
+
+p {
+  color: var(--primary);
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+  text-align: center;
+  background-color: var(--primary);
+}
+footer h2 {
+  font-size: 20px;
+  color: var(--tertiary);
+}
+
+footer h3 {
+  color: var(--tertiary);
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+}
+p {
+  font-size: 16px;
+}
+
+.btn {
+  display: inline;
+  font-size: 1.5em;
+  padding: 5px;
+  color: var(--tertiary);
+  background-color: var(--secondary);
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  position: relative;
+  top: -3px;
+  box-shadow: 0 3px var(--grey);
+}
+
+.btn:hover {
+  box-shadow: 0 2px var(--grey);
+  top: -2px;
+}
+.btn:active {
+  box-shadow: 0 0px var(--grey);
+  top: 0;
+}
+
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("./Assets/images/population-density-checker-logo.svg");
+  background-size: cover;
+  background-position: center;
+}
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+  background-color: #2589BD;
+}
+.benefit-lead {
+  margin-bottom: 32px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.benefit-brand {
+  margin-bottom: 32px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.benefit-cost {
+  margin-bottom: 32px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.benefit-lead h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.benefit-brand h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.benefit-lead img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+.benefit-brand img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+.benefit-cost img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+.search-engine-optimization {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+  background-color: #0072BB;
+  color: #FFFFFF;
+}
+.online-reputation-management {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+  background-color: #0072BB;
+  color: #FFFFFF;
+}
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+  background-color: #0072BB;
+  color: #FFFFFF;
+}
+
+.search-engine-optimization img {
+  max-height: 200px;
+}
+.online-reputation-management img {
+  max-height: 200px;
+}
+.social-media-marketing img {
+  max-height: 200px;
+}
+.search-engine-optimization h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+.online-reputation-management h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.search-container {
+  background: var(--tertiary);
+  text-align: center;
+}
+
+.search-results-wrapper {
+  color: var(--primary);
+  background-color: var(--tertiary);
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.5em;
+  display: none;
+}
+
+.search-field {
+  padding: 5px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.search-icon {
+  width: 2%;
+  border-top: 5px;
+  position: relative;
+}
+
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+#map{
+  width: 70%;
+  height: 500px;
+
+}
+
+#map-des{
+  flex-direction: flex;
+  font-size: 40px;
+  text-align: center;
+  color: #05117a;
+  border-bottom: #ffffff 10px solid;
+  border-top: #ffffff 10px solid;
+
+
+}
+.list-item{
+  justify-content: center;
+  display: flex;
+}
+
+.resulthead {
+  font-size: 30px;
+  border-bottom: black 5px solid;
+  ;
+}
